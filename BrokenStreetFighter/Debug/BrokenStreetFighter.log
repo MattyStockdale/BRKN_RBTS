@@ -1,0 +1,22 @@
+﻿  GameObj.cpp
+c:\users\matam\documents\brokenstreetfighter\brokenstreetfighter\gameobj.cpp(28): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\matam\documents\brokenstreetfighter\brokenstreetfighter\gameobj.cpp(37): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\matam\documents\brokenstreetfighter\brokenstreetfighter\gameobj.cpp(40): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+c:\users\matam\documents\brokenstreetfighter\brokenstreetfighter\gameobj.cpp(44): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+  BrokenStreetFighter.vcxproj -> C:\Users\matam\Documents\BrokenStreetFighter\Debug\BrokenStreetFighter.exe

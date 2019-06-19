@@ -1,0 +1,98 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(387,5): warning MSB8028: The intermediate directory (Release\) contains files shared from another project (BrokenStreetFighter-Alan.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  AnimatedSprite.cpp
+  Animation.cpp
+  Application.cpp
+Application.cpp(123): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+Application.cpp(152): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+Application.cpp(275): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+Application.cpp(328): warning C4305: 'argument': truncation from 'double' to 'float'
+Application.cpp(339): warning C4305: 'argument': truncation from 'double' to 'float'
+  GameObj.cpp
+GameObj.cpp(52): warning C4305: 'argument': truncation from 'double' to 'float'
+GameObj.cpp(133): warning C4305: 'argument': truncation from 'double' to 'float'
+GameObj.cpp(136): warning C4305: 'argument': truncation from 'double' to 'float'
+GameObj.cpp(140): warning C4305: 'argument': truncation from 'double' to 'float'
+  InputHandler.cpp
+InputHandler.cpp(42): warning C4018: '<': signed/unsigned mismatch
+InputHandler.cpp(61): warning C4018: '<': signed/unsigned mismatch
+  main.cpp
+  Player.cpp
+Player.cpp(188): warning C4305: '-=': truncation from 'double' to 'float'
+Player.cpp(193): warning C4305: '+=': truncation from 'double' to 'float'
+sfml-system-s.lib(String.cpp.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in AnimatedSprite.obj
+sfml-window-s.lib(Window.cpp.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in AnimatedSprite.obj
+sfml-window-s.lib(VideoMode.cpp.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in AnimatedSprite.obj
+sfml-window-s.lib(GlContext.cpp.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in AnimatedSprite.obj
+sfml-window-s.lib(WindowImpl.cpp.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in AnimatedSprite.obj
+sfml-window-s.lib(VideoModeImpl.cpp.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in AnimatedSprite.obj
+sfml-window-s.lib(WglContext.cpp.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in AnimatedSprite.obj
+sfml-window-s.lib(JoystickManager.cpp.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in AnimatedSprite.obj
+sfml-window-s.lib(SensorManager.cpp.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in AnimatedSprite.obj
+sfml-window-s.lib(WindowImplWin32.cpp.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in AnimatedSprite.obj
+sfml-window-s.lib(WglExtensions.cpp.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in AnimatedSprite.obj
+sfml-window-s.lib(Joystick.cpp.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in AnimatedSprite.obj
+sfml-window-s.lib(JoystickImpl.cpp.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in AnimatedSprite.obj
+sfml-graphics-s.lib(Transformable.cpp.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in AnimatedSprite.obj
+sfml-graphics-s.lib(Transform.cpp.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in AnimatedSprite.obj
+sfml-graphics-s.lib(RenderTarget.cpp.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in AnimatedSprite.obj
+sfml-graphics-s.lib(RenderStates.cpp.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in AnimatedSprite.obj
+sfml-graphics-s.lib(Color.cpp.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in AnimatedSprite.obj
+sfml-graphics-s.lib(Texture.cpp.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in AnimatedSprite.obj
+sfml-graphics-s.lib(Font.cpp.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in AnimatedSprite.obj
+sfml-graphics-s.lib(RenderWindow.cpp.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in AnimatedSprite.obj
+sfml-graphics-s.lib(Sprite.cpp.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in AnimatedSprite.obj
+sfml-graphics-s.lib(Text.cpp.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in AnimatedSprite.obj
+sfml-graphics-s.lib(View.cpp.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in AnimatedSprite.obj
+sfml-graphics-s.lib(Shader.cpp.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in AnimatedSprite.obj
+sfml-graphics-s.lib(GLExtensions.cpp.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in AnimatedSprite.obj
+sfml-graphics-s.lib(GLLoader.cpp.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in AnimatedSprite.obj
+sfml-graphics-s.lib(Image.cpp.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in AnimatedSprite.obj
+sfml-graphics-s.lib(VertexArray.cpp.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in AnimatedSprite.obj
+sfml-graphics-s.lib(ImageLoader.cpp.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in AnimatedSprite.obj
+sfml-system-s.lib(Err.cpp.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in AnimatedSprite.obj
+sfml-system-s.lib(ThreadLocal.cpp.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in AnimatedSprite.obj
+sfml-system-s.lib(String.cpp.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall std::bad_cast::bad_cast(char const *)" (__imp_??0bad_cast@std@@QAE@PBD@Z)
+sfml-graphics-s.lib(Shader.cpp.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall std::bad_cast::bad_cast(char const *)" (__imp_??0bad_cast@std@@QAE@PBD@Z)
+sfml-system-s.lib(Err.cpp.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) char const * __cdecl std::_Winerror_map(int)" (__imp_?_Winerror_map@std@@YAPBDH@Z)
+sfml-graphics-s.lib(Shader.cpp.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) char const * __cdecl std::_Winerror_map(int)" (__imp_?_Winerror_map@std@@YAPBDH@Z)
+sfml-graphics-s.lib(GLExtensions.cpp.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) char const * __cdecl std::_Winerror_map(int)" (__imp_?_Winerror_map@std@@YAPBDH@Z)
+sfml-graphics-s.lib(Image.cpp.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) char const * __cdecl std::_Winerror_map(int)" (__imp_?_Winerror_map@std@@YAPBDH@Z)
+sfml-graphics-s.lib(ImageLoader.cpp.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) char const * __cdecl std::_Winerror_map(int)" (__imp_?_Winerror_map@std@@YAPBDH@Z)
+sfml-graphics-s.lib(Font.cpp.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) char const * __cdecl std::_Winerror_map(int)" (__imp_?_Winerror_map@std@@YAPBDH@Z)
+sfml-graphics-s.lib(RenderWindow.cpp.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) char const * __cdecl std::_Winerror_map(int)" (__imp_?_Winerror_map@std@@YAPBDH@Z)
+sfml-graphics-s.lib(Sprite.cpp.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) char const * __cdecl std::_Winerror_map(int)" (__imp_?_Winerror_map@std@@YAPBDH@Z)
+sfml-graphics-s.lib(Text.cpp.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) char const * __cdecl std::_Winerror_map(int)" (__imp_?_Winerror_map@std@@YAPBDH@Z)
+sfml-window-s.lib(Joystick.cpp.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) char const * __cdecl std::_Winerror_map(int)" (__imp_?_Winerror_map@std@@YAPBDH@Z)
+sfml-window-s.lib(JoystickImpl.cpp.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) char const * __cdecl std::_Winerror_map(int)" (__imp_?_Winerror_map@std@@YAPBDH@Z)
+sfml-graphics-s.lib(RenderTarget.cpp.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) char const * __cdecl std::_Winerror_map(int)" (__imp_?_Winerror_map@std@@YAPBDH@Z)
+sfml-graphics-s.lib(Texture.cpp.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) char const * __cdecl std::_Winerror_map(int)" (__imp_?_Winerror_map@std@@YAPBDH@Z)
+sfml-window-s.lib(WglContext.cpp.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) char const * __cdecl std::_Winerror_map(int)" (__imp_?_Winerror_map@std@@YAPBDH@Z)
+sfml-window-s.lib(JoystickManager.cpp.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) char const * __cdecl std::_Winerror_map(int)" (__imp_?_Winerror_map@std@@YAPBDH@Z)
+sfml-window-s.lib(SensorManager.cpp.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) char const * __cdecl std::_Winerror_map(int)" (__imp_?_Winerror_map@std@@YAPBDH@Z)
+sfml-window-s.lib(WindowImplWin32.cpp.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) char const * __cdecl std::_Winerror_map(int)" (__imp_?_Winerror_map@std@@YAPBDH@Z)
+sfml-system-s.lib(String.cpp.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) char const * __cdecl std::_Winerror_map(int)" (__imp_?_Winerror_map@std@@YAPBDH@Z)
+sfml-window-s.lib(Window.cpp.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) char const * __cdecl std::_Winerror_map(int)" (__imp_?_Winerror_map@std@@YAPBDH@Z)
+sfml-window-s.lib(GlContext.cpp.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) char const * __cdecl std::_Winerror_map(int)" (__imp_?_Winerror_map@std@@YAPBDH@Z)
+sfml-window-s.lib(WindowImpl.cpp.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) char const * __cdecl std::_Winerror_map(int)" (__imp_?_Winerror_map@std@@YAPBDH@Z)
+sfml-system-s.lib(String.cpp.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::bad_cast::bad_cast(class std::bad_cast const &)" (??0bad_cast@std@@QAE@ABV01@@Z)
+sfml-graphics-s.lib(Shader.cpp.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::bad_cast::bad_cast(class std::bad_cast const &)" (??0bad_cast@std@@QAE@ABV01@@Z)
+sfml-system-s.lib(String.cpp.obj) : error LNK2001: unresolved external symbol "public: virtual __thiscall std::bad_cast::~bad_cast(void)" (??1bad_cast@std@@UAE@XZ)
+sfml-graphics-s.lib(Shader.cpp.obj) : error LNK2001: unresolved external symbol "public: virtual __thiscall std::bad_cast::~bad_cast(void)" (??1bad_cast@std@@UAE@XZ)
+sfml-graphics-s.lib(Shader.cpp.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: int __thiscall std::codecvt<char,char,int>::in(int &,char const *,char const *,char const * &,char *,char *,char * &)const " (__imp_?in@?$codecvt@DDH@std@@QBEHAAHPBD1AAPBDPAD3AAPAD@Z)
+sfml-graphics-s.lib(Shader.cpp.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: int __thiscall std::codecvt<char,char,int>::out(int &,char const *,char const *,char const * &,char *,char *,char * &)const " (__imp_?out@?$codecvt@DDH@std@@QBEHAAHPBD1AAPBDPAD3AAPAD@Z)
+sfml-graphics-s.lib(Shader.cpp.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: int __thiscall std::codecvt<char,char,int>::unshift(int &,char *,char *,char * &)const " (__imp_?unshift@?$codecvt@DDH@std@@QBEHAAHPAD1AAPAD@Z)
+sfml-graphics-s.lib(Shader.cpp.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: static unsigned int __cdecl std::codecvt<char,char,int>::_Getcat(class std::locale::facet const * *,class std::locale const *)" (__imp_?_Getcat@?$codecvt@DDH@std@@SAIPAPBVfacet@locale@2@PBV42@@Z)
+sfml-graphics-s.lib(Shader.cpp.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: class std::fpos<int> __thiscall std::basic_istream<char,struct std::char_traits<char> >::tellg(void)" (__imp_?tellg@?$basic_istream@DU?$char_traits@D@std@@@std@@QAE?AV?$fpos@H@2@XZ)
+sfml-graphics-s.lib(Shader.cpp.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: static class std::locale::id std::codecvt<char,char,int>::id" (__imp_?id@?$codecvt@DDH@std@@2V0locale@2@A)
+sfml-graphics-s.lib(ImageLoader.cpp.obj) : error LNK2001: unresolved external symbol __imp__fprintf
+freetype.lib(bdf.obj) : error LNK2001: unresolved external symbol _sprintf
+jpeg.lib(jerror.obj) : error LNK2001: unresolved external symbol _sprintf
+jpeg.lib(jerror.obj) : error LNK2001: unresolved external symbol _fprintf
+jpeg.lib(jerror.obj) : error LNK2001: unresolved external symbol ___iob_func
+jpeg.lib(jmemmgr.obj) : error LNK2001: unresolved external symbol _sscanf
+sfml-main.lib(MainWin32.cpp.obj) : error LNK2001: unresolved external symbol __imp____argc
+sfml-main.lib(MainWin32.cpp.obj) : error LNK2001: unresolved external symbol __imp____argv
+sfml-system-s.lib(Err.cpp.obj) : error LNK2001: unresolved external symbol __imp____iob_func
+sfml-system-s.lib(Err.cpp.obj) : error LNK2001: unresolved external symbol "protected: virtual class std::fpos<int> __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::seekoff(__int64,int,int)" (?seekoff@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAE?AV?$fpos@H@2@_JHH@Z)
+sfml-system-s.lib(Err.cpp.obj) : error LNK2001: unresolved external symbol "protected: virtual class std::fpos<int> __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::seekpos(class std::fpos<int>,int)" (?seekpos@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAE?AV?$fpos@H@2@V32@H@Z)
+D:\GameJams\AGDSGJ - BRKN RBTS\BrokenStreetFighter\BrokenStreetFighter\Release\BrokenStreetFighter.exe : fatal error LNK1120: 20 unresolved externals

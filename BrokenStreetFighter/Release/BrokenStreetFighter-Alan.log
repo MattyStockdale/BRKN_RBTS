@@ -1,0 +1,31 @@
+﻿Build started 28/11/2015 20:43:07.
+     1>Project "C:\Users\Matthew\OneDrive\Documents\University\AGDS Game Jam\BrokenStreetFighter\BrokenStreetFighter\BrokenStreetFighter\BrokenStreetFighter.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\Matthew\OneDrive\Documents\University\AGDS Game Jam\BrokenStreetFighter\BrokenStreetFighter\\SFML-2.3.2\include" /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D SFML_STATIC /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Application.cpp
+         Application.cpp
+     1>Application.cpp(62): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>Application.cpp(68): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>Application.cpp(148): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>Application.cpp(177): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Application.cpp(313): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>Application.cpp(315): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>Application.cpp(366): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>Application.cpp(377): warning C4305: 'argument' : truncation from 'double' to 'float'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Matthew\OneDrive\Documents\University\AGDS Game Jam\BrokenStreetFighter\BrokenStreetFighter\Release\BrokenStreetFighter.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Users\Matthew\OneDrive\Documents\University\AGDS Game Jam\BrokenStreetFighter\BrokenStreetFighter\\SFML-2.3.2\lib" "sfml-main.lib" "sfml-system-s.lib" "sfml-window-s.lib" "sfml-graphics-s.lib" "sfml-network-s.lib" "sfml-audio-s.lib" winmm.lib ws2_32.lib openal32.lib opengl32.lib gdi32.lib freetype.lib jpeg.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Matthew\OneDrive\Documents\University\AGDS Game Jam\BrokenStreetFighter\BrokenStreetFighter\Release\BrokenStreetFighter.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Matthew\OneDrive\Documents\University\AGDS Game Jam\BrokenStreetFighter\BrokenStreetFighter\Release\BrokenStreetFighter.lib" /MACHINE:X86 /SAFESEH Release\AnimatedSprite.obj
+         Release\Animation.obj
+         Release\Application.obj
+         Release\GameObj.obj
+         Release\InputHandler.obj
+         Release\main.obj
+         Release\Player.obj
+         Generating code
+     1>c:\users\matthew\onedrive\documents\university\agds game jam\brokenstreetfighter\brokenstreetfighter\brokenstreetfighter\inputhandler.cpp(101): warning C4715: 'InputHandler::getKey' : not all control paths return a value
+     1>c:\users\matthew\onedrive\documents\university\agds game jam\brokenstreetfighter\brokenstreetfighter\brokenstreetfighter\inputhandler.cpp(122): warning C4715: 'InputHandler::isKeyPressed' : not all control paths return a value
+         Finished generating code
+         BrokenStreetFighter.vcxproj -> C:\Users\Matthew\OneDrive\Documents\University\AGDS Game Jam\BrokenStreetFighter\BrokenStreetFighter\Release\BrokenStreetFighter.exe
+     1>Done Building Project "C:\Users\Matthew\OneDrive\Documents\University\AGDS Game Jam\BrokenStreetFighter\BrokenStreetFighter\BrokenStreetFighter\BrokenStreetFighter.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.17
